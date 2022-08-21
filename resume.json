@@ -1,0 +1,28 @@
+{
+  "name": "Sanjay",
+  "age": 30,
+  "dob": "YYYY-MM-DD",
+  "bio": {
+    "height": 188,
+    "weight": 90
+  },
+  "skills": [
+    "JS",
+    "Python"
+  ],
+  "projects": [
+    {
+      "name": "RC Toy Car",
+      "langs": [
+        "Python",
+        "ARM"
+      ]
+    },
+    {
+      "name": "DIP",
+      "langs": [
+        "Python"
+      ]
+    }
+  ]
+}

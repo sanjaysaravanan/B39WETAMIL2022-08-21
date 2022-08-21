@@ -1,0 +1,49 @@
+Topics:
+  Scopes:
+    Global -> the top level statement in JS file
+    block -> inside a only curly braces
+    function -> inside a function braces
+
+  ES6:
+    var --> re-declaration within same scope is allowed
+
+    let --> re-declaration within the same scope is not allowed
+
+    const --> should initialized at the time of declaration
+      re-declaration not allowed
+
+    Template Literals
+
+    Object Short hand
+
+    Destructuring: Unpacking
+      Array
+      Object
+  
+    Spread, Rest
+
+
+  API: Application Programming Interface
+    REST API ---> Representational State Transfer API ( transferring state of a entity between application )
+    JSON --> Javascript Object Notation {} or []
+    {
+      "likedPosts": [
+        {},
+        {},
+        {},
+        ...
+      ]
+    }
+    XMLHTTPRequest
+
+
+  Object Comparison Task:
+    const obj1 = { name: 'Sanjay', marks: 100}, 
+    const obj2 = { marks: 100, name: 'Sanjay', }];
+    step 1
+      use for in ....
+    step 2 
+    take the key of one object compare the values of both with that key check for equality and decide whether both are same
+
+      obj1["name"] === obj2['name']
+
